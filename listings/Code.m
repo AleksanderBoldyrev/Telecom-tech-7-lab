@@ -1,4 +1,4 @@
-out = randerr(1,4);
+out = randerr(1,4) + randerr(1,4);
 disp(out);
 code = encode (out, 7, 4, 'hamming/binary');
 disp(code);
@@ -8,7 +8,7 @@ end;
 
 % % % % % % % % % % % % % % % % % % % % % % % % % 
 
-out = randerr(1,4);
+out = randerr(1,4) + randerr(1,4);
 disp(out);
 code = encode (out, 7, 4, 'cyclic/binary');
 disp (code);
